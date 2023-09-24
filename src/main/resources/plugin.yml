@@ -1,0 +1,23 @@
+name: CrackpixelSBCore
+version: '${project.version}'
+main: org.crackpixelmobs.CommandCenter
+api-version: '1.18'
+commands:
+  cpm:
+    description: Spawn mobs
+    usage: /cpm <mob name>
+  cpa:
+    description: Set player attributes
+    usage: /cpa <attribute> <value>
+  itemsgui:
+    description: Open item GUI
+    usage: /itemsgui
+  slayers:
+    description: Manage slayers
+    usage: /slayers
+  worldtest:
+    description: Create a new world
+    usage: /worldtest
+  statstest:
+    description: Test player stats
+    usage: /statstest
