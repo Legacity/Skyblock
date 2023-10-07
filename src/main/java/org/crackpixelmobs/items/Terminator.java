@@ -80,8 +80,6 @@ public class Terminator implements Listener {
 
                 // Prevent the Enderman from teleporting
                 enderman.teleport(enderman.getLocation()); // Teleport to its current location (prevents teleporting)
-
-                // Handle damage to Endermen as you want
                 event.setDamage(event.getDamage() * 2.5); // Example: Deal 2.5x damage
             }
         }
