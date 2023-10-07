@@ -105,6 +105,6 @@ public class ItemsGui implements Listener {
     }
 
     private void giveAbilityToPlayer(Player player, ItemStack item) {
-        // Implement your ability logic here
+
     }
 }
