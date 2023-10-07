@@ -59,9 +59,6 @@ public class Stats {
     public double calculatePlayerDamage(Player player, double baseDamage) {
         double strength = getAttributeValue(Attribute.STRENGTH);
         double critDamage = getAttributeValue(Attribute.CRIT_DAMAGE);
-
-        // Implement your logic to calculate damage based on strength, crit damage, and other factors
-        // This is a simplified example, adjust it according to your game mechanics
         double calculatedDamage = baseDamage + (strength * 0.5) + (critDamage * 0.8);
 
         return calculatedDamage;
