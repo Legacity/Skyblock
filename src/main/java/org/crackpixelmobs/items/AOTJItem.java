@@ -30,7 +30,7 @@ public class AOTJItem implements Listener {
         ItemMeta aotjMeta = aotjSword.getItemMeta();
         aotjMeta.setDisplayName(ChatColor.WHITE + "Aspect of The Jerry");
 
-        // Lore for the item
+
         List<String> lore = new ArrayList<>();
         lore.add(ChatColor.GRAY + "Damage: " + ChatColor.RED + "+1");
         lore.add("");
@@ -40,7 +40,7 @@ public class AOTJItem implements Listener {
         lore.add(ChatColor.DARK_GRAY + "Cooldown " + ChatColor.GREEN + "5s");
         lore.add(ChatColor.DARK_GRAY + "This item can be reforged");
         lore.add("");
-        // Adding the rarity to the lore
+        // rarity
         Rarity rarity = Rarity.COMMON;
         lore.add(rarity.getRarityColor() + "" + ChatColor.BOLD + rarity.getName());
 
