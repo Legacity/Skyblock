@@ -49,7 +49,7 @@ public class Stats {
 
     public void setAttribute(Player player, Attribute attribute, double value) {
         attributes.put(attribute, value);
-        // Implement your logic to apply the attribute to the player
+        // logic to apply the attribute to the player
     }
 
     public double getAttributeValue(Attribute attribute) {
